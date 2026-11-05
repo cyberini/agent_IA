@@ -1,0 +1,4 @@
+# Versions FIGÉES volontairement pour la démonstration (stabilité)
+# Pour passer à une version supérieure : observer le numéro (https://github.com/BerriAI/litellm/releases + https://github.com/google/adk-python/releases) et le changer ci-dessous
+google-adk==2.13.0
+litellm==1.108.0
