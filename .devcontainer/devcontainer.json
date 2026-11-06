@@ -6,10 +6,10 @@
   "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
 
   // Installe les dépendances (versions figées) à la création de l'environnement
-  "postCreateCommand": "git config core.hooksPath .githooks; pip install --upgrade pip && pip install -r requirements.txt; [ -f .env ] || cp .env.example .env",
+  "postCreateCommand": "git config core.hooksPath .githooks; git config core.fileMode false; chmod +x .githooks/pre-commit lancer.sh; pip install --upgrade pip && pip install -r requirements.txt; [ -f .env ] || cp .env.example .env",
 
   // Message d'accueil à chaque ouverture
-  "postAttachCommand": "echo '\n👋 Bienvenue ! 1) Mettez votre clé dans le fichier .env  2) Lancez : adk web agents\n'",
+  "postAttachCommand": "echo '\n👋 Bienvenue ! 1) Mets ta clé dans le fichier .env  2) Lance : bash lancer.sh\n'",
 
   // Le port 8000 = l'interface "adk web"
   "forwardPorts": [8000],
