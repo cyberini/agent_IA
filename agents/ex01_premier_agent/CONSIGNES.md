@@ -5,8 +5,10 @@
 ## 1. Lancez-le
 
 ```bash
-adk web agents
+bash lancer.sh
 ```
+
+> En installation locale (sans Codespaces), `adk web agents` fonctionne aussi.
 
 Ouvrez l'interface (port 8000), choisissez `ex01_premier_agent` en haut à gauche, et dites bonjour.
 

@@ -8,7 +8,7 @@ Un LLM est un génie des mots… et un calculateur peu fiable. Il ne connaît pa
 
 ## 1. Testez
 
-Dans `adk web agents`, choisissez `ex02_outils` et demandez :
+Dans l'interface (`bash lancer.sh`), choisissez `ex02_outils` et demandez :
 
 - « Combien font 1 234,56 € HT en TTC ? »
 - « Et avec une TVA à 5,5 % ? »
